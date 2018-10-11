@@ -1,0 +1,62 @@
+body{
+    background-color: #1fc8db;
+    background-image: url('form_login_background.png')
+}
+#form_login{
+    margin-top: 60px;
+    height: 400px;
+    background-color: rgba(45,45,45,.45);
+}
+.form_login_title{
+    position: absolute;
+    z-index: 5000;
+    top: 50px;
+    height: 50px;
+    width: 160px;
+    background-color: #24ff00;
+    text-align: center;
+    padding-top: 8px;
+    font-weight: bold;
+    font-style: normal;
+    color: gray;
+    font-size: 23px
+}
+.form_login_image{
+    margin-top: 80px;
+    height: 100px;
+}
+.form_login_image img{
+    width: 100%;
+    height: 100%
+}
+.form_login_content{
+    padding-top: 30px;
+    padding-left: 25px
+}
+.form_login_content > div > div{
+    width: 330px;
+    margin-bottom: 20px;
+}
+.form_login_content > div{
+    padding: 0px
+}
+.form_login_content table{
+    width: 100%
+}
+.form_login_content table tr td:first-child{
+    border-style: solid;
+    width: 50px;
+    height: 50px
+}
+.form_login_manager > div em a{
+    color: green;
+    font-style: normal;
+    text-decoration: underline;
+    font-weight: bold
+}
+.form_login_manager > div:first-child{
+    text-align: left;   
+}
+.form_login_manager > div:last-child{
+    text-align: right;   
+}
